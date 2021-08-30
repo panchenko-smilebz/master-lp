@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'PF Beau Sans Pro Regular';
+    src: url('../fonts/PFBeauSansPro-Regular/PFBeauSansPro-Regular.eot');
+    src: url('../fonts/PFBeauSansPro-Regular/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Regular/PFBeauSansPro-Regular.woff') format('woff'),
+    url('../fonts/PFBeauSansPro-Regular/PFBeauSansPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'PF Beau Sans Pro Semibold';
+    src: url('../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.eot');
+    src: url('../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.woff') format('woff'),
+    url('../fonts/PFBeauSansPro-SemiBold/PFBeauSansPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'PF Beau Sans Pro Bold';
+    src: url('../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.eot');
+    src: url('../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.woff') format('woff'),
+    url('../fonts/PFBeauSansPro-Bold/PFBeauSansPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+body {
+    font-family: 'PF Beau Sans Pro Regular';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
