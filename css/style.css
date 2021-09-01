@@ -38,4 +38,128 @@ body {
     line-height: 1.5;
 }
 
+/* Font Styles */
+h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.sign {
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
 
+/* Header Styles */
+header {
+    position: relative;
+}
+.header_menu ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    list-style: none;
+}
+.header_menu_item {
+    margin-right: 22px;
+}
+.header_menu_item:last-child {
+    margin-right: 0;
+}
+.header_menu_item a {
+    text-decoration: none;
+    color: #272A2D;
+}
+.header_menu_calc-btn {
+    padding: 15px 16px 14px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: #44C6FE;
+}
+
+.subheader {
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+}
+.header_logo-descr,
+.header_edges {
+    margin-top: 5px;
+}
+.header_logo-descr {
+    margin-left: 30px;
+    color: #fff;
+}
+.header_edges_item:last-child {
+    margin-left: 48px;
+}
+.header-edges_item_text {
+    padding-left: 15px;
+    color: #fff;
+}
+.header_phone {
+    text-align: right;
+}
+.header_phone a.number {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.header_phone .shedule {
+    padding: 1px 0 2px 0;
+    color: #fff;
+}
+.header_phone a.callback {
+    text-decoration: none;
+    border-bottom: 1px dashed #44C6FE;
+    color: #44C6FE;
+}
+.header_phone a.callback:hover {
+    border-bottom: none;
+}
+
+/* Promo Section Styles */
+section.promo {
+    padding: 147px 0 50px 0;
+    background: url(../img/bg/main-bg.jpg) center center/cover no-repeat;
+}
+
+section.promo h1 {
+    max-width: 718px;
+}
+
+.promo_list {
+    padding-top: 30px;
+}
+.promo_list_item {
+    padding-top: 8px;
+}
+.promo_list_item:first-child {
+    padding-top: 0;
+}
+.promo_list_item_marker {
+    padding: 3px;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(180deg, #44C6FE 0%, #2DADE3 100%);
+    border-radius: 100%;
+}
+.promo_list_item_marker_border-1 {
+    padding: 3px;
+    border: 1px solid rgba(68, 198, 254, .25);
+    border-radius: 100%;
+}
+.promo_list_item_marker_border-2 {
+    padding: 3px;
+    border: 1px solid rgba(68, 198, 254, .5);
+    border-radius: 100%;
+}
+.promo_list_item span {
+    margin-left: 6px;
+    color: #fff;
+}
